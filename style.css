@@ -346,6 +346,10 @@ body.is-luxury .site-logo {
     max-width: 100%;
   }
 
+  .hero-text {
+    padding-right: 0;
+  }
+
   .hero-heading {
     font-size: 32px;
   }
