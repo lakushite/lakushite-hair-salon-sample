@@ -119,6 +119,41 @@ body:not(.is-luxury) {
 }
 
 /* =========================
+   SECTION（4幕 共通土台）
+   ========================= */
+.section {
+  padding: 96px 0;
+}
+
+.section--full {
+  padding: 0;
+}
+
+.full-bleed {
+  width: 100%;
+}
+
+.full-bleed img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* 16:9 を崩さない表示（必要な幕で使う） */
+.media-16x9 {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  overflow: hidden;
+}
+
+.media-16x9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* =========================
    FOOTER（共通）
    ========================= */
 .site-footer {
