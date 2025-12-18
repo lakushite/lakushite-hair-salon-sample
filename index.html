@@ -1,54 +1,83 @@
-<!-- ================= ヘッダー（共通） ================= -->
-<header class="site-header">
-  <div class="container header-inner">
-    <!-- ロゴ（テキスト運用） -->
-    <a class="site-logo" href="index.html" aria-label="ホームへ">
-      NOIR Hair Atelier
-    </a>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NOIR Hair Atelier | Sample site</title>
+    <meta name="description" content="NOIR Hair Atelier のサンプルサイト（luxury-template）です。" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <!-- グローバルナビ -->
-    <nav class="site-nav" aria-label="グローバルナビゲーション">
-      <ul class="nav-list">
-        <li><a href="index.html" class="is-active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="access.html">Access</a></li>
-        <li><a href="reserve.html">Reserve</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  <!-- 高級感 ON：class="is-luxury" を付ける / OFF：外す -->
+  <body class="is-luxury">
+    <!-- ================= ヘッダー（共通） ================= -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- ロゴ（テキスト運用） -->
+        <a class="site-logo" href="index.html" aria-label="ホームへ">
+          NOIR Hair Atelier
+        </a>
 
-<section class="hero" aria-label="Hero">
-  <!-- 背景（画像は後で差し替え前提） -->
-  <div class="hero-bg" aria-hidden="true"></div>
-  <div class="hero-overlay" aria-hidden="true"></div>
-
-  <div class="hero-content container">
-    <div class="hero-text">
-      <p class="hero-eyebrow">NOIR Hair Atelier</p>
-
-      <h1 class="hero-heading">静けさの中で、髪が整う。</h1>
-
-      <p class="hero-lead">
-        一人ひとりの髪質とライフスタイルに合わせて、<br>
-        カット・カラー・ケアを丁寧に。<br>
-        落ち着いた空間で、上質な時間をご提供します。
-      </p>
-
-      <div class="hero-cta">
-        <a href="reserve.html" class="btn btn-primary">ご予約はこちら</a>
-
-        <div class="hero-social" aria-label="Social links">
-          <a href="https://www.instagram.com/andtoiro_hiroshima/" class="social-link-circle" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-            <img src="icon-instagram.png" alt="Instagram アイコン">
-          </a>
-          <a href="#" class="social-link-circle" aria-label="LINE公式アカウント">
-            <img src="icon-line.png" alt="LINE アイコン">
-          </a>
-        </div>
+        <!-- グローバルナビ -->
+        <nav class="site-nav" aria-label="グローバルナビゲーション">
+          <ul class="nav-list">
+            <li><a href="index.html" class="is-active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li><a href="reserve.html">Reserve</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-  </div>
-</section>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Hero">
+        <!-- 背景（画像は後で差し替え前提） -->
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="hero-content container">
+          <div class="hero-text">
+            <p class="hero-eyebrow">NOIR Hair Atelier</p>
+
+            <h1 class="hero-heading">静けさの中で、髪が整う。</h1>
+
+            <p class="hero-lead">
+              一人ひとりの髪質とライフスタイルに合わせて、<br />
+              カット・カラー・ケアを丁寧に。<br />
+              落ち着いた空間で、上質な時間をご提供します。
+            </p>
+
+            <div class="hero-cta">
+              <a href="reserve.html" class="btn btn-primary">ご予約はこちら</a>
+
+              <div class="hero-social" aria-label="Social links">
+                <a
+                  href="https://www.instagram.com/andtoiro_hiroshima/"
+                  class="social-link-circle"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="icon-instagram.png" alt="Instagram アイコン" />
+                </a>
+                <a href="#" class="social-link-circle" aria-label="LINE公式アカウント">
+                  <img src="icon-line.png" alt="LINE アイコン" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= フッター（共通） ================= -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small class="footer-copy">Sample site / Designed by Lakushite</small>
+      </div>
+    </footer>
+  </body>
+</html>
