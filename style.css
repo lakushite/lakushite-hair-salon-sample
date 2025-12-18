@@ -58,13 +58,7 @@
   flex-wrap: wrap;
 }
 
-/* スマホ */
-@media (max-width: 640px) {
-  .hero {
-    padding: 72px 0;
-  }
-
-   /* =========================
+/* =========================
    HERO タイポグラフィ（luxury）
    ========================= */
 .hero {
@@ -90,9 +84,18 @@
 
 /* スマホ */
 @media (max-width: 640px) {
+  .hero {
+    padding: 72px 0;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
   .hero-heading {
     font-size: 32px;
   }
+
   .hero-lead {
     font-size: 15px;
   }
