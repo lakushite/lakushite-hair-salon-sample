@@ -44,6 +44,8 @@ body:not(.is-luxury) {
 }
 
 .hero-overlay {
+  position: absolute;
+  inset: 0;
   background: linear-gradient(
     90deg,
     var(--lux-bg-overlay-strong) 0%,
