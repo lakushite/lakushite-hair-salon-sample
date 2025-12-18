@@ -10,7 +10,7 @@
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url("hero.jpg") center / cover no-repeat;
+  background: url("/assets/images/hero.jpg") center / cover no-repeat;
   filter: grayscale(10%);
   transform: scale(1.02);
 }
