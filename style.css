@@ -201,6 +201,10 @@ body.is-luxury {
   width: 100%;
 }
 
+.full-bleed {
+  line-height: 0;
+}
+
 .full-bleed img {
   display: block;
   width: 100%;
