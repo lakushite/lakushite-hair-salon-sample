@@ -27,6 +27,14 @@ body:not(.is-luxury) {
 }
 
 /* =========================
+   BASE（luxury）
+   ========================= */
+body.is-luxury {
+  background: #000;
+  color: var(--lux-text-main);
+}
+
+/* =========================
    HERO（luxury-template）
    ========================= */
 .hero {
