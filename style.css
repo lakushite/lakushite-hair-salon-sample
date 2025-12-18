@@ -119,6 +119,61 @@ body.is-luxury {
 }
 
 /* =========================
+   BUTTON / CTA
+   ========================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: transparent;
+  color: var(--lux-text-main);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+/* =========================
+   SOCIAL（Hero）
+   ========================= */
+.hero-social {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-link-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.social-link-circle img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+/* =========================
    LAYOUT（共通）
    ========================= */
 .container {
