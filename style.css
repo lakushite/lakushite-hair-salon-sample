@@ -349,6 +349,10 @@ body.is-luxury .site-logo {
     font-size: 15px;
   }
 
+  .section {
+    padding: 64px 0;
+  }
+
   /* ===== header/nav（スマホ） ===== */
   .header-inner {
     gap: 10px;
