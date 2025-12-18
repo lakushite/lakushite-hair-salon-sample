@@ -162,6 +162,24 @@ body.is-luxury {
 }
 
 /* =========================
+   TYPO（Section用）
+   ========================= */
+.section-title {
+  margin: 0 0 14px;
+  font-size: 30px;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.section-text {
+  margin: 0 0 22px;
+  line-height: 1.9;
+  color: var(--lux-text-sub);
+  max-width: 54ch;
+}
+
+/* =========================
    FOOTER（共通）
    ========================= */
 .site-footer {
