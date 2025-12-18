@@ -30,13 +30,11 @@
 }
 
 .hero-overlay {
-  position: absolute;
-  inset: 0;
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 0.72) 0%,
-    rgba(0, 0, 0, 0.35) 55%,
-    rgba(0, 0, 0, 0.15) 100%
+    var(--lux-bg-overlay-strong) 0%,
+    var(--lux-bg-overlay-mid) 55%,
+    var(--lux-bg-overlay-light) 100%
   );
 }
 
