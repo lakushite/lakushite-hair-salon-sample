@@ -35,7 +35,10 @@ body:not(.is-luxury) {
   overflow: hidden;
 }
 
-background: url("assets/images/hero-main.png") center / cover no-repeat;
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: url("assets/images/hero-main.png") center / cover no-repeat;
   filter: grayscale(10%);
   transform: scale(1.02);
 }
