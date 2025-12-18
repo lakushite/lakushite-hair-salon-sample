@@ -110,6 +110,41 @@ body:not(.is-luxury) {
   color: var(--lux-text-sub);
 }
 
+/* =========================
+   LAYOUT（共通）
+   ========================= */
+.container {
+  width: min(1100px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+/* =========================
+   FOOTER（共通）
+   ========================= */
+.site-footer {
+  padding: 28px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+body.is-luxury .site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  background: #000;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copy {
+  opacity: 0.8;
+}
+
+body.is-luxury .footer-copy {
+  color: rgba(255, 255, 255, 0.85);
+}
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
