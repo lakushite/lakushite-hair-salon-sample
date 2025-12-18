@@ -1,0 +1,69 @@
+/* =========================
+   HERO（luxury-template）
+   ========================= */
+.hero {
+  position: relative;
+  padding: 96px 0;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background: #111; /* いったん仮。後で画像に置換 */
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.72) 0%,
+    rgba(0, 0, 0, 0.35) 55%,
+    rgba(0, 0, 0, 0.15) 100%
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-text {
+  max-width: 720px;
+}
+
+.hero-eyebrow {
+  margin: 0 0 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.hero-heading {
+  margin: 0 0 18px;
+  line-height: 1.15;
+}
+
+.hero-lead {
+  margin: 0 0 22px;
+  line-height: 1.9;
+  opacity: 0.92;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* スマホ */
+@media (max-width: 640px) {
+  .hero {
+    padding: 72px 0;
+  }
+  .hero-text {
+    max-width: 100%;
+  }
+}
