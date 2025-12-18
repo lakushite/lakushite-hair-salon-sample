@@ -71,6 +71,11 @@ body.is-luxury {
   max-width: 720px;
 }
 
+.hero-text {
+  max-width: 720px;
+  padding-right: 80px;
+}
+
 .hero-eyebrow {
   margin: 0 0 14px;
   letter-spacing: 0.12em;
