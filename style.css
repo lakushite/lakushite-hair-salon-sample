@@ -93,7 +93,7 @@
 
 .hero-lead {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--lux-text-sub);
 }
 
 /* スマホ */
