@@ -337,12 +337,15 @@ body.is-luxury .site-logo {
     padding: 72px 0;
   }
 
-   .hero-text {
+  .hero-text {
   max-width: 100%;
+  }
+
+  .hero-text--right {
   margin-left: auto;
   padding-left: 24px;
   padding-right: 0;
-}
+  }
 
   .hero-heading {
     font-size: 32px;
