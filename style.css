@@ -151,7 +151,7 @@ body.is-luxury {
 .cta-counseling__line {
   font-size: 12px;
   font-weight: 600;
-  color: rgba(208, 189, 136, 0.92); /* 薄ゴールド */
+  color: #e6d39a; /* 明度を下げた上品ゴールド */
 }
 
 /* 品のあるホバー（常時表示のまま、反応だけ） */
