@@ -50,7 +50,7 @@ body.is-luxury {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0%; /* ← 上を固定（下だけ切れる） */
-  filter: grayscale(10%);
+  filter: none;
   transform: none; /* ← これがあると上が切れやすいので無効化 */
 }
 
