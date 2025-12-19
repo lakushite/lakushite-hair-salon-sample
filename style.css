@@ -76,6 +76,10 @@ body.is-luxury {
   max-width: 520px;
 }
 
+.hero-text {
+  margin-bottom: 12px;
+}
+
 .hero-text--right {
   margin-left: auto;
   padding-left: 80px;
