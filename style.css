@@ -109,6 +109,47 @@ body.is-luxury {
 }
 
 /* =========================
+   COUNSELING CTA（Hero）
+   ========================= */
+.cta-counseling {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+
+  /* 高さ基準（今のボタン相当） */
+  padding: 6px 10px; /* 48px相当に寄せるための上下余白 */
+}
+
+.cta-counseling__icon {
+  /* 2x画像を前提に “表示サイズ” だけ指定 */
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+.cta-counseling__text {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.05;
+  letter-spacing: 0.14em;
+}
+
+.cta-counseling__line {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(208, 189, 136, 0.92); /* 薄ゴールド */
+}
+
+/* 品のあるホバー（常時表示のまま、反応だけ） */
+.cta-counseling:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* =========================
    HERO タイポグラフィ（luxury）
    ========================= */
 .hero {
