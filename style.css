@@ -46,9 +46,12 @@ body.is-luxury {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url("assets/images/hero-main.png") 50% 5% / cover no-repeat; /* ← 上寄せ */
+  background-image: url("assets/images/hero-main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%; /* ← 上を固定（下だけ切れる） */
   filter: grayscale(10%);
-  transform: scale(1.02);
+  transform: none; /* ← これがあると上が切れやすいので無効化 */
 }
 
 .hero-overlay {
