@@ -108,6 +108,10 @@ body.is-luxury {
   flex-wrap: wrap;
 }
 
+.hero-cta {
+  margin-top: 22px;
+}
+
 /* =========================
    COUNSELING CTA（Hero）
    ========================= */
