@@ -335,9 +335,11 @@ body.is-luxury .site-logo {
   }
 
    .hero-text {
-    max-width: 100%;
-    padding-right: 0;
-  }
+  max-width: 100%;
+  margin-left: auto;
+  padding-left: 24px;
+  padding-right: 0;
+}
 
   .hero-heading {
     font-size: 32px;
