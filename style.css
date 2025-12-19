@@ -2,7 +2,7 @@
    THEME SWITCH（luxury）
    ========================= */
 :root {
-  --lux-bg-overlay-strong: rgba(0, 0, 0, 0.45);
+  --lux-bg-overlay-strong: rgba(0, 0, 0, 0.35);
   --lux-bg-overlay-mid: rgba(0, 0, 0, 0.25);
   --lux-bg-overlay-light: rgba(0, 0, 0, 0.10);
 
@@ -16,7 +16,7 @@
    THEME SWITCH（normal）
    ========================= */
 body:not(.is-luxury) {
-  --lux-bg-overlay-strong: rgba(0, 0, 0, 0.35);
+  --lux-bg-overlay-strong: rgba(0, 0, 0, 0.45);
   --lux-bg-overlay-mid: rgba(0, 0, 0, 0.25);
   --lux-bg-overlay-light: rgba(0, 0, 0, 0.1);
 
