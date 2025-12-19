@@ -359,9 +359,9 @@ body.is-luxury .site-logo {
     font-size: 15px;
   }
 
-   .hero-bg {
-    background: url("assets/images/hero-main.png") 50% 10% / cover no-repeat; /* さらに上寄せ */
-  }
+  .hero-bg {
+  background-position: 50% 0%;
+}
 
   .section {
     padding: 64px 0;
