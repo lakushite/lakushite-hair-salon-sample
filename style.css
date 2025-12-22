@@ -116,9 +116,13 @@ body.is-luxury {
   flex-wrap: wrap;
   justify-content: flex-start; /* ← ここに変更 */
   margin-top: 22px; 
-  transform: translate(-16px, -150px); 
 }
 
+.hero-cta {
+  position: relative;
+  top: -150px;
+  left: -16px;
+}
 /* =========================
    COUNSELING CTA（Hero）
    ========================= */
