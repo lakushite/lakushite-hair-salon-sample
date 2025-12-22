@@ -137,7 +137,7 @@ body.is-luxury {
 
 .cta-counseling__icon {
   /* 2x画像を前提に “表示サイズ” だけ指定 */
-  height: 64px;
+  height: 80px;
   width: auto;
   display: block;
 }
