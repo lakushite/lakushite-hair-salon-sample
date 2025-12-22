@@ -141,19 +141,6 @@ body.is-luxury {
   display: block;
 }
 
-.cta-counseling__text {
-  display: inline-flex;
-  flex-direction: column;
-  line-height: 1.05;
-  letter-spacing: 0.14em;
-}
-
-.cta-counseling__line {
-  font-size: 12px;
-  font-weight: 600;
-  color: #e6d39a; /* 明度を下げた上品ゴールド */
-}
-
 /* 品のあるホバー（常時表示のまま、反応だけ） */
 .cta-counseling:hover {
   opacity: 0.92;
