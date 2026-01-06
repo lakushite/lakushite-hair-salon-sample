@@ -142,10 +142,10 @@ body.is-luxury {
 }
 
 .cta-counseling__icon {
-  /* 2x画像を前提に “表示サイズ” だけ指定 */
-  height: 150px;
-  width: auto;
-  display: block;
+  width: clamp(220px, 26vw, 360px); /* 端末幅に応じて程よく伸縮 */
+  height: auto;                    /* 縦横比は画像に任せる */
+  display: block;                  /* 画像下の謎余白対策 */
+  max-width: 100%;                 /* 親要素を超えない保険 */
 }
 
 /* 品のあるホバー（常時表示のまま、反応だけ） */
