@@ -441,35 +441,39 @@ body.is-luxury .site-logo {
 
 .section--detail .detail-overlay {
   position: absolute;
-  /* スクショ2枚目（第3幕）と同じ “左寄せ＆縦中央” の考え方 */
-  left: clamp(24px, 6vw, 90px);
+  right: clamp(24px, 6vw, 90px);
   top: 50%;
   transform: translateY(-50%);
   z-index: 2;
 
-  /* 1ブロックとして見た目を安定させる */
   width: min(520px, calc(100% - 48px));
   max-width: 520px;
+
+  /* 1ブロックとして“整って見える”並びにする */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+
+  text-align: left;
 }
 
-/* 第4幕は右側に寄せたい（スクショ2枚目の赤枠位置）なら右寄せに切り替え */
-.section--detail .detail-overlay {
-  left: auto;
-  right: clamp(24px, 6vw, 90px);
-  text-align: left; /* 文字は左揃えのままにして“整って見える”ように */
+/* ブロック内の余白を統一（バラバラ感の原因を潰す） */
+.section--detail .detail-overlay .section-title,
+.section--detail .detail-overlay .section-text {
+  margin: 0;
 }
 
-/* 画像上でも読めるように（第3幕と同じ） */
 .section--detail .detail-overlay .section-title,
 .section--detail .detail-overlay .section-text {
   color: rgba(255, 255, 255, 0.92);
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.55);
 }
 
-/* CTAの間隔も第3幕に揃える */
+/* CTAは“最後に置く”だけで揃う（gapで間隔管理） */
 .section--detail .detail-overlay .cta-counseling {
   display: inline-flex;
-  margin-top: 14px;
+  margin-top: 6px;
 }
 
 /* スマホ */
