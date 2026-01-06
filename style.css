@@ -148,13 +148,6 @@ body.is-luxury {
   max-width: 100%;                 /* 親要素を超えない保険 */
 }
 
-/* 予約アイコン（Counseling CTA）は常に固定サイズ */
-.cta-counseling__icon {
-  width: 44px !important;
-  height: 44px !important;
-  object-fit: contain;
-}
-
 /* 品のあるホバー（常時表示のまま、反応だけ） */
 .cta-counseling:hover {
   opacity: 0.92;
