@@ -379,6 +379,20 @@ body.is-luxury .site-logo {
 }
 
 /* =========================
+   余白ゼロ：第3幕→次の画像をぴったり密着
+   ========================= */
+.section--full + .section {
+  padding-top: 0; /* ← 縦の余白を消す（密着） */
+}
+
+/* 次セクションの最初の16:9画像だけ、画面いっぱいに広げる */
+.section--full + .section .container > .media-16x9 {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+/* =========================
    EXPERIENCE overlay（第3幕：画像上に文章を配置）
    ========================= */
 .section--experience .experience-media {
