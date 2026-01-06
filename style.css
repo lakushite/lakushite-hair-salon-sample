@@ -413,7 +413,8 @@ body.is-luxury .site-logo {
   margin: 0;
 }
 
-.section--full + .section img {
+.section--full + .section > img,
+.section--full + .section > .container > img {
   display: block;
   width: 100%;
   height: auto;
