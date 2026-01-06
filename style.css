@@ -405,17 +405,14 @@ body.is-luxury .site-logo {
   left: clamp(24px, 6vw, 90px);
   top: 50%;
   transform: translateY(-50%);
-  max-width: 520px;
   z-index: 2;
 
-  /* “消えた”対策（確実に見えるように） */
   width: min(520px, calc(100% - 48px));
+  max-width: 520px;
+
   background: transparent;
   padding: 0;
-}
 
-/* 第3幕も“1ブロック”で整列（第4幕と同じ） */
-.section--experience .experience-overlay {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
