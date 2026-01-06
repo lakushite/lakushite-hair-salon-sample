@@ -108,17 +108,8 @@ body.is-luxury {
   gap: 16px;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start; /* ← ここに変更 */
-  margin-top: 22px; 
-}
-
-.hero-cta {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  flex-wrap: wrap;
   justify-content: flex-start;
-  margin-top: 0;      /* 余計な上マージンは消す */
+  margin-top: 0;
 }
 
 /* =========================
