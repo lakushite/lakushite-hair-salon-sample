@@ -433,6 +433,46 @@ body.is-luxury .site-logo {
 }
 
 /* =========================
+   DETAIL overlay（第4幕：画像上に文章を配置）
+   ========================= */
+.section--detail .detail-media {
+  position: relative;
+}
+
+.section--detail .detail-overlay {
+  position: absolute;
+  /* スクショ2枚目（第3幕）と同じ “左寄せ＆縦中央” の考え方 */
+  left: clamp(24px, 6vw, 90px);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+
+  /* 1ブロックとして見た目を安定させる */
+  width: min(520px, calc(100% - 48px));
+  max-width: 520px;
+}
+
+/* 第4幕は右側に寄せたい（スクショ2枚目の赤枠位置）なら右寄せに切り替え */
+.section--detail .detail-overlay {
+  left: auto;
+  right: clamp(24px, 6vw, 90px);
+  text-align: left; /* 文字は左揃えのままにして“整って見える”ように */
+}
+
+/* 画像上でも読めるように（第3幕と同じ） */
+.section--detail .detail-overlay .section-title,
+.section--detail .detail-overlay .section-text {
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.55);
+}
+
+/* CTAの間隔も第3幕に揃える */
+.section--detail .detail-overlay .cta-counseling {
+  display: inline-flex;
+  margin-top: 14px;
+}
+
+/* =========================
    DETAIL overlay（第4幕：文章を画像右側へ）
    ========================= */
 section[aria-label="Detail"] {
