@@ -486,6 +486,11 @@ body.is-luxury .site-logo {
   margin-top: 6px;
 }
 
+/* 第4幕もフルブリード扱いにして、上下の余白をなくす */
+.section--detail {
+  padding: 0;
+}
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
