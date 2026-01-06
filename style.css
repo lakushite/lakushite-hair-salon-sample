@@ -393,6 +393,11 @@ body.is-luxury .site-logo {
   transform: translateY(-50%);
   max-width: 520px;
   z-index: 2;
+
+  /* “消えた”対策（確実に見えるように） */
+  width: min(520px, calc(100% - 48px));
+  background: rgba(0, 0, 0, 0.25);
+  padding: 16px 18px;
 }
 
 /* 画像上でも読めるように（Heroと同系統の見え方） */
@@ -406,13 +411,6 @@ body.is-luxury .site-logo {
 .section--experience .experience-overlay .cta-counseling {
   display: inline-flex;
   margin-top: 14px;
-}
-
-.section--experience .experience-overlay {
-  /* 既存... */
-  width: min(520px, calc(100% - 48px));
-  background: rgba(0,0,0,0.25);
-  padding: 16px 18px;
 }
 
 /* スマホ */
