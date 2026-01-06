@@ -494,6 +494,23 @@ body.is-luxury .site-logo {
 /* 第4幕：画像下の余白（22px）を打ち消す */
 .section--detail .detail-media { margin: 0; }
 
+/* =========================
+   PC：overlay位置 微調整（スマホは後でOK）
+   ========================= */
+@media (min-width: 641px) {
+  /* 第4幕：少し上へ + ほんの少し右へ（スクショの“整え”用） */
+  .section--detail .detail-overlay {
+    top: 46%;
+    right: clamp(16px, 4vw, 72px);
+  }
+
+  /* 第3幕：現状で良ければ不要（気になる時だけ微調整） */
+  .section--experience .experience-overlay {
+    top: 50%;
+    left: clamp(24px, 6vw, 90px);
+  }
+}
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
