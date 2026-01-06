@@ -400,6 +400,23 @@ body.is-luxury .site-logo {
   margin-right: calc(50% - 50vw);
 }
 
+/* =========================
+   IMAGE-ONLY SECTION（フル幅＆余白なし）
+   ========================= */
+.section:has(.media-16x9):not(:has(.section-title)):not(:has(.section-text)),
+.section:has(.full-bleed):not(:has(.section-title)):not(:has(.section-text)) {
+  padding: 0;
+}
+
+.section:has(.media-16x9):not(:has(.section-title)):not(:has(.section-text)) .media-16x9,
+.section:has(.full-bleed):not(:has(.section-title)):not(:has(.section-text)) .full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-bottom: 0;
+  background: #000;
+}
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
