@@ -414,6 +414,14 @@ body.is-luxury .site-logo {
   padding: 0;
 }
 
+/* 第3幕も“1ブロック”で整列（第4幕と同じ） */
+.section--experience .experience-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
 /* 画像上でも読めるように（Heroと同系統の見え方） */
 .section--experience .experience-overlay .section-title,
 .section--experience .experience-overlay .section-text {
@@ -460,7 +468,6 @@ body.is-luxury .site-logo {
   flex-direction: column;
   align-items: flex-start;
   gap: 14px;
-
   text-align: left;
 }
 
