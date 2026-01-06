@@ -483,7 +483,7 @@ body.is-luxury .site-logo {
 /* CTAは“最後に置く”だけで揃う（gapで間隔管理） */
 .section--detail .detail-overlay .cta-counseling {
   display: inline-flex;
-  margin-top: 6px;
+  margin-top: 0px;
 }
 
 /* 第4幕もフルブリード扱いにして、上下の余白をなくす */
