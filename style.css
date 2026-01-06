@@ -271,7 +271,7 @@ body.is-luxury {
   display: block;
 }
 
-.section .media-16x9 {
+.section:not(.section--full) .media-16x9 {
   margin: 0 0 22px;
 }
 
