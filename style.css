@@ -142,7 +142,7 @@ body.is-luxury {
 }
 
 .cta-counseling__icon {
-  width: clamp(200px, 22vw, 320px); /* 端末幅に応じて程よく伸縮 */
+  width: clamp(180px, 20vw, 300px); /* 端末幅に応じて程よく伸縮 */
   height: auto;                    /* 縦横比は画像に任せる */
   display: block;                  /* 画像下の謎余白対策 */
   max-width: 100%;                 /* 親要素を超えない保険 */
