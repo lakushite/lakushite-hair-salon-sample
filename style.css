@@ -408,6 +408,13 @@ body.is-luxury .site-logo {
   margin-top: 14px;
 }
 
+.section--experience .experience-overlay {
+  /* 既存... */
+  width: min(520px, calc(100% - 48px));
+  background: rgba(0,0,0,0.25);
+  padding: 16px 18px;
+}
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
