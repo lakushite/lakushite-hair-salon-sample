@@ -491,6 +491,9 @@ body.is-luxury .site-logo {
   padding: 0;
 }
 
+/* 第4幕：画像下の余白（22px）を打ち消す */
+.section--detail .detail-media { margin: 0; }
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
