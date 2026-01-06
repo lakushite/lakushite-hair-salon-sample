@@ -41,6 +41,7 @@ body.is-luxury {
   position: relative;
   padding: 96px 0;
   overflow: hidden;
+  color: var(--lux-text-main); 
 }
 
 .hero-bg {
@@ -138,13 +139,6 @@ body.is-luxury {
   opacity: 0.92;
   transform: translateY(-1px);
   transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-/* =========================
-   HERO タイポグラフィ（luxury）
-   ========================= */
-.hero {
-  color: var(--lux-text-main);
 }
 
 /* =========================
