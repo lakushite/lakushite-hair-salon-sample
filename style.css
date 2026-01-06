@@ -100,10 +100,7 @@ body.is-luxury {
   font-size: 16px;
   color: var(--lux-text-sub);
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
-}
-
-.hero-lead {
-  margin-bottom: 32px;
+  margin-bottom: 32px; 
 }
 
 .hero-cta {
