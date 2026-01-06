@@ -432,7 +432,7 @@ body.is-luxury .site-logo {
 /* CTAは本文の下に少し間を空ける */
 .section--experience .experience-overlay .cta-counseling {
   display: inline-flex;
-  margin-top: 14px;
+  margin-top: 0px;
 }
 
 /* 第3幕も1ブロック内の余白を統一（第4幕と揃える） */
