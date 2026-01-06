@@ -392,12 +392,11 @@ body.is-luxury .site-logo {
   margin: 0;
 }
 
-/* section--full の画像ブロックを画面いっぱい（100vw）に広げる */
+/* section--full 内は素直に100%幅（=画面幅） */
 .section--full .media-16x9,
 .section--full .full-bleed {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  width: 100%;
+  margin: 0;
 }
 
 /* =========================
