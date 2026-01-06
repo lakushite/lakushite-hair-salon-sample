@@ -366,6 +366,7 @@ body.is-luxury .site-logo {
 }
 
 .site-nav a {
+  color: inherit;          /* ← 追加（ロゴと同じ色を継承させる） */
   text-decoration: none;
   opacity: 0.88;
 }
