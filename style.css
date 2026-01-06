@@ -546,3 +546,16 @@ body.is-luxury .site-logo {
 .section--detail {
   padding: 0;
 }
+
+  /* 第3幕・第4幕：スマホは下寄せで安定させる */
+  .section--experience .experience-overlay,
+  .section--detail .detail-overlay {
+    left: 16px;
+    right: 16px;
+    top: auto;
+    bottom: 16px;
+    transform: none;
+    width: auto;
+    max-width: none;
+  }
+
