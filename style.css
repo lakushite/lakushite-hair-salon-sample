@@ -538,3 +538,8 @@ body.is-luxury .site-logo {
     font-size: 14px;
   }
 }
+
+/* 第4幕：スマホでも余白ゼロを維持 */
+.section--detail {
+  padding: 0;
+}
