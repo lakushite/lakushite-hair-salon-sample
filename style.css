@@ -472,50 +472,6 @@ body.is-luxury .site-logo {
   margin-top: 14px;
 }
 
-/* =========================
-   DETAIL overlay（第4幕：文章を画像右側へ）
-   ========================= */
-section[aria-label="Detail"] {
-  padding: 0; /* 黒い余白を消して、画像に重ねる */
-}
-
-section[aria-label="Detail"] .container {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  position: relative; /* 文章を絶対配置する基準 */
-}
-
-/* タイトル・本文・予約アイコンを画像上に重ねる（右寄せ） */
-section[aria-label="Detail"] .section-title,
-section[aria-label="Detail"] .section-text,
-section[aria-label="Detail"] .cta-counseling {
-  position: absolute;
-  right: clamp(24px, 6vw, 140px);
-  z-index: 3;
-}
-
-/* 配置（赤枠あたりに来るように上から割合で指定） */
-section[aria-label="Detail"] .section-title {
-  top: 32%;
-  margin: 0;
-  max-width: min(460px, calc(100% - 48px));
-  color: rgba(255, 255, 255, 0.92);
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.55);
-}
-
-section[aria-label="Detail"] .section-text {
-  top: 50%;
-  margin: 0;
-  max-width: min(460px, calc(100% - 48px));
-  color: rgba(255, 255, 255, 0.88);
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.55);
-}
-
-section[aria-label="Detail"] .cta-counseling {
-  top: 70%;
-}
-
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
