@@ -427,6 +427,12 @@ body.is-luxury .site-logo {
   margin-top: 14px;
 }
 
+/* 第3幕も1ブロック内の余白を統一（第4幕と揃える） */
+.section--experience .experience-overlay .section-title,
+.section--experience .experience-overlay .section-text {
+  margin: 0;
+}
+
 /* 第3幕：experience-01 は上を優先して見せる（頭が切れないように） */
 .section--experience .experience-media > img {
   object-position: 50% 0%;
