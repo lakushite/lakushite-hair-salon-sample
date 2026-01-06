@@ -443,6 +443,36 @@ body.is-luxury .site-logo {
   background: #000;
 }
 
+/* =========================
+   EXPERIENCE overlay（第3幕：画像上に文章を配置）
+   ========================= */
+.section--experience .experience-media {
+  position: relative;
+}
+
+/* 文章ブロックを画像の左寄せ・縦中央へ */
+.section--experience .experience-overlay {
+  position: absolute;
+  left: clamp(24px, 6vw, 90px);
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 520px;
+  z-index: 2;
+}
+
+/* 画像上でも読めるように（Heroと同系統の見え方） */
+.section--experience .experience-overlay .section-title,
+.section--experience .experience-overlay .section-text {
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.55);
+}
+
+/* CTAは本文の下に少し間を空ける */
+.section--experience .experience-overlay .cta-counseling {
+  display: inline-flex;
+  margin-top: 14px;
+}
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
