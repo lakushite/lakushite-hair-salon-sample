@@ -400,32 +400,6 @@ body.is-luxury .site-logo {
 }
 
 /* =========================
-   FULL-WIDTH直後のセクションもフル幅＆余白なし
-   ========================= */
-.section--full + .section {
-  padding: 0;
-}
-
-.section--full + .section .container {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-}
-
-.section--full + .section > img,
-.section--full + .section > .container > img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.section--full + .section {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-}
-
-/* =========================
    IMAGE-ONLY SECTION（フル幅＆余白なし）
    ========================= */
 .section:has(.media-16x9):not(:has(.section-title)):not(:has(.section-text)),
