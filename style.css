@@ -381,6 +381,25 @@ body.is-luxury .site-logo {
   text-underline-offset: 6px;
 }
 
+/* =========================
+   FULL-WIDTH IMAGE FIX（余白なしでフル幅）
+   ========================= */
+
+/* section--full の中だけ、container の横幅制限（左右余白）を解除 */
+.section--full .container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+/* section--full の画像ブロックを画面いっぱい（100vw）に広げる */
+.section--full .media-16x9,
+.section--full .full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
