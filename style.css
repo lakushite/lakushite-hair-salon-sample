@@ -396,9 +396,8 @@ body.is-luxury .site-logo {
 
   /* “消えた”対策（確実に見えるように） */
   width: min(520px, calc(100% - 48px));
-  background: rgba(0, 0, 0, 0.12);
-  padding: 10px 12px;
-  border-radius: 12px;
+  background: transparent;
+  padding: 0;
 }
 
 /* 画像上でも読めるように（Heroと同系統の見え方） */
