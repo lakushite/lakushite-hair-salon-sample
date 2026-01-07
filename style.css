@@ -508,14 +508,17 @@ body.is-luxury .site-logo {
    PC：overlay位置 微調整（スマホは後でOK）
    ========================= */
 @media (min-width: 641px) {
-  /* 第4幕：少し上へ + ほんの少し右へ（スクショの“整え”用） */
   .section--detail .detail-overlay {
     top: 46%;
     right: clamp(16px, 4vw, 72px);
   }
 
- @media (min-width: 641px) {
-  body { --hero-text-x: 100px; }
+  .hero { --hero-text-x: 100px; }
+
+  .section--experience .experience-overlay {
+    top: 50%;
+    left: clamp(24px, 6vw, 90px);
+  }
 }
 
   /* 第3幕：現状で良ければ不要（気になる時だけ微調整） */
