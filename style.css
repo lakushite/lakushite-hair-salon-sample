@@ -75,7 +75,7 @@ body.is-luxury {
 
 .hero-text {
   max-width: 520px;
-  margin-bottom: 12px; 
+  margin: 0 0 12px auto; /* ← 左をautoにして、ブロック自体を右寄せ */
 }
 
 .hero-text--right {
