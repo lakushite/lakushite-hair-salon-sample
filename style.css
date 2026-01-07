@@ -80,7 +80,7 @@ body.is-luxury {
   z-index: 2;
 }
 
-/* HERO：文章/CTAが消える事故の強制復帰（最優先） */
+/* HERO：テキストブロック（右寄せレイアウトの土台） */
 .hero-text {
   max-width: 520px;
   margin: 0 0 12px auto; /* ← 左をautoにして、ブロック自体を右寄せ */
