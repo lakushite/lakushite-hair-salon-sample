@@ -44,6 +44,20 @@ body.is-luxury {
   color: var(--lux-text-main); 
 }
 
+/* HERO：文字/アイコンが背景に隠れた時の前面固定 */
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-bg {
+  z-index: 0;
+}
+
+.hero-overlay {
+  z-index: 1;
+}
+
 .hero-bg {
   position: absolute;
   inset: 0;
