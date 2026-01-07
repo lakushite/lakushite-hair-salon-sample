@@ -521,13 +521,6 @@ body.is-luxury .site-logo {
   }
 }
 
-  /* 第3幕：現状で良ければ不要（気になる時だけ微調整） */
-  .section--experience .experience-overlay {
-    top: 50%;
-    left: clamp(24px, 6vw, 90px);
-  }
-}
-
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
