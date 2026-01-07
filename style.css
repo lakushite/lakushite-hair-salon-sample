@@ -37,13 +37,6 @@ body.is-luxury {
 /* =========================
    HERO（luxury-template）
    ========================= */
-.hero {
-  position: relative;
-  padding: 96px 0;
-  overflow: hidden;
-  color: var(--lux-text-main); 
-}
-
 /* HERO：文字/アイコンが背景に隠れた時の前面固定 */
 .hero {
   position: relative;
@@ -86,28 +79,6 @@ body.is-luxury {
 .hero .container {
   position: relative;
   z-index: 2;
-}
-
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  background-image: url("assets/images/hero-main.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 0%; /* ← 上を固定（下だけ切れる） */
-  filter: none;
-  transform: none; /* ← これがあると上が切れやすいので無効化 */
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    90deg,
-    var(--lux-bg-overlay-strong) 0%,
-    var(--lux-bg-overlay-mid) 55%,
-    var(--lux-bg-overlay-light) 100%
-  );
 }
 
 .hero-text {
