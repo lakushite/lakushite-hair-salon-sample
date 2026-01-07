@@ -513,7 +513,7 @@ body.is-luxury .site-logo {
     right: clamp(16px, 4vw, 72px);
   }
 
-  .hero { --hero-text-x: 100px; }
+  .hero { --hero-text-x: 160px; }
 
   .section--experience .experience-overlay {
     top: 50%;
