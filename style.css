@@ -510,7 +510,7 @@ body.is-luxury .site-logo {
 @media (min-width: 641px) {
   .section--detail .detail-overlay {
     top: 46%;
-    right: clamp(16px, 4vw, 72px);
+    right: 0;
   }
 
   .hero { --hero-text-x: 160px; }
