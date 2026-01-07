@@ -80,6 +80,25 @@ body.is-luxury {
   z-index: 2;
 }
 
+/* HERO：文章/CTAが消える事故の強制復帰（最優先） */
+.hero .hero-text {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.hero .hero-cta {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.hero .cta-counseling {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
 .hero-text {
   max-width: 520px;
   margin: 0 0 12px auto; /* ← 左をautoにして、ブロック自体を右寄せ */
