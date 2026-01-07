@@ -530,7 +530,7 @@ body.is-luxury .site-logo {
     right: clamp(16px, 4vw, 72px);
   }
 
-  .hero-text--right { transform: translateX(160px); }
+  .hero-text--right { transform: translateX(140px); }
 
   /* 第3幕：現状で良ければ不要（気になる時だけ微調整） */
   .section--experience .experience-overlay {
