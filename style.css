@@ -66,13 +66,6 @@ body.is-luxury {
   );
 }
 
-.hero-content {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  padding: 0 20px;
-}
-
 .hero-text {
   max-width: 520px;
   margin: 0 0 12px auto; /* ← 左をautoにして、ブロック自体を右寄せ */
