@@ -589,3 +589,57 @@ body.is-luxury .site-logo {
    padding: 0;
   }
 }
+
+/* =========================
+   HERO 緊急復旧パッチ（最下部に追記）
+   背景/オーバーレイより文字を必ず前面に出す
+   ========================= */
+
+.hero {
+  position: relative !important;
+  isolation: isolate !important;
+}
+
+/* 背景は最背面に固定 */
+.hero-bg {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 0 !important;
+  filter: none !important;
+  transform: none !important;
+}
+
+/* オーバーレイは背景の上・文字の下に固定 */
+.hero-overlay {
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+/* 文字ブロックは必ず最前面 */
+.hero .container {
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* 文字/CTAがどこかで消されていても強制表示 */
+.hero .hero-eyebrow,
+.hero .hero-heading,
+.hero .hero-lead,
+.hero .hero-cta,
+.hero .cta-counseling {
+  position: relative !important;
+  z-index: 11 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* flex指定のものは flex に戻す */
+.hero .hero-cta {
+  display: flex !important;
+}
+.hero .cta-counseling {
+  display: inline-flex !important;
+}
