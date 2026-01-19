@@ -519,6 +519,12 @@ body.is-luxury .site-logo {
   }
 }
 
+@media (min-width: 1024px) {
+  .hero--candle .hero-text {
+    margin-right: -160px; /* まずは-160。足りなければ-200/-240 */
+  }
+}
+
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
