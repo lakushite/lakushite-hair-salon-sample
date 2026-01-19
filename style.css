@@ -519,10 +519,6 @@ body.is-luxury .site-logo {
   }
 }
 
-@media (min-width: 1024px) {
-  .hero { --hero-copy-shift-x: 160px; }
-}
-
 /* スマホ */
 @media (max-width: 640px) {
   .hero {
