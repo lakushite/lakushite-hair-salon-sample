@@ -8,7 +8,7 @@
   --lux-text-main: #f5f5f5;
   --lux-text-sub: rgba(255, 255, 255, 0.85);
   --lux-hero-title-size: 44px;
-  --hero-text-x: 0px; /* ← 追加（基本はずらさない） */
+  --hero-copy-shift-x: 0px; /* ← 追加（基本はずらさない） */
 }
 
 /* =========================
@@ -91,7 +91,7 @@ body.is-luxury {
   margin-left: auto;
   padding-left: 64px;
   padding-right: 0;
-  transform: translateX(var(--hero-text-x)); /* ← 追加 */
+  transform: translateX(var(--hero-copy-shift-x)); /* ← 追加 */
 }
 
 .hero-eyebrow {
@@ -513,12 +513,14 @@ body.is-luxury .site-logo {
     right: 0;
   }
 
-  .hero { --hero-text-x: 160px; }
-
   .section--experience .experience-overlay {
     top: 50%;
     left: clamp(24px, 6vw, 90px);
   }
+}
+
+@media (min-width: 1024px) {
+  .hero { --hero-copy-shift-x: 160px; }
 }
 
 /* スマホ */
