@@ -91,7 +91,7 @@ body.is-luxury {
   margin-left: auto;
   padding-left: 64px;
   padding-right: 0;
-  transform: translateX(var(--hero-copy-shift-x)); /* ← 追加 */
+  /* transform: translateX(var(--hero-copy-shift-x)); */
 }
 
 .hero-eyebrow {
