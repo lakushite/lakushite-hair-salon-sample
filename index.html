@@ -10,15 +10,13 @@
 
   <!-- 高級感 ON：class="is-luxury" を付ける / OFF：外す -->
   <body class="is-luxury">
-    <!-- ================= ヘッダー（共通） ================= -->
+
+    <!-- ================= ヘッダー ================= -->
     <header class="site-header">
       <div class="container header-inner">
-        <!-- ロゴ（テキスト運用） -->
         <a class="site-logo" href="index.html" aria-label="ホームへ">
           NOIR Hair Atelier
         </a>
-
-        <!-- グローバルナビ -->
         <nav class="site-nav" aria-label="グローバルナビゲーション">
           <ul class="nav-list">
             <li><a href="index.html" class="is-active">Home</a></li>
@@ -33,40 +31,33 @@
     </header>
 
     <main>
+
+      <!-- ================= 第1幕：ヒーロー ================= -->
       <section class="hero hero--candle" aria-label="Hero">
-        <!-- 背景（画像は後で差し替え前提） -->
         <div class="hero-bg" aria-hidden="true"></div>
         <div class="hero-overlay" aria-hidden="true"></div>
-
-         <div class="hero-content">
+        <div class="hero-content">
           <div class="hero-text hero-text--right">
             <p class="hero-eyebrow">NOIR Hair Atelier</p>
-
             <h1 class="hero-heading">
               静けさの中で、<br />
               髪が整う。
             </h1>
-
             <p class="hero-lead">
               照明、香り、音楽。<br />
               すべてに上質を重ねた空間で、<br />
               あなただけの時間を。
             </p>
-
             <div class="hero-cta">
- <a href="reserve.html" class="cta-counseling" aria-label="カウンセリング予約">
-  <img
-    src="assets/images/reserve-badge.png"
-    alt="Counseling Reservation"
-    class="cta-counseling__icon"
-  />
-</a>
-</div>
+              <a href="reserve.html" class="cta-counseling" aria-label="カウンセリング予約">
+                <img src="assets/images/reserve-badge.png" alt="Counseling Reservation" class="cta-counseling__icon" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
-      
-            <!-- ================= 第2幕：空間（没入・格の証明） ================= -->
+
+      <!-- ================= 第2幕：空間 ================= -->
       <section class="section section--full" aria-label="Space">
         <div class="full-bleed">
           <div class="media-16x9">
@@ -78,76 +69,61 @@
         </div>
       </section>
 
- <!-- ================= 第3幕：体験（感情のピーク） ================= -->
-<section class="section section--full section--experience" aria-label="Experience">
-  <div class="container">
-    <div class="media-16x9 experience-media">
-      <img src="assets/images/experience-01.png" alt="マンツーマンの施術" />
+      <!-- ================= 第3幕：体験 ================= -->
+      <section class="section section--full section--experience" aria-label="Experience">
+        <div class="container">
+          <div class="media-16x9 experience-media">
+            <img src="assets/images/experience-01.png" alt="マンツーマンの施術" />
+            <div class="experience-overlay">
+              <h2 class="section-title">
+                髪が美しい時間を、<br />
+                特別に扱われる感覚へ。
+              </h2>
+              <p class="section-text">
+                完全予約制、マンツーマン。<br />
+                施術の前に、コンシェルジュが<br />
+                丁寧にカウンセリングを行います。
+              </p>
+              <p class="section-text">
+                流れ作業ではない、<br />
+                あなただけのための時間を。
+              </p>
+              <a href="reserve.html" class="cta-counseling" aria-label="カウンセリング予約">
+                <img src="assets/images/reserve-badge.png" alt="Counseling Reservation" class="cta-counseling__icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <!-- ここが「画像の上に載せる文章＆予約アイコン」 -->
-      <div class="experience-overlay">
-        <h2 class="section-title">
-          髪が美しい時間を、<br />
-          特別に扱われる感覚へ。
-        </h2>
+      <!-- ================= 第4幕：余韻 ================= -->
+      <section class="section section--detail" aria-label="Detail">
+        <div class="container">
+          <div class="media-16x9 detail-media">
+            <img src="assets/images/detail-01.png" alt="静かな余韻" />
+            <div class="detail-overlay">
+              <h2 class="section-title">細部にまで、品を。</h2>
+              <p class="section-text">
+                手に触れるもの、<br />
+                視界に入るものすべてに、<br />
+                理由のある上質を。
+              </p>
+              <a href="reserve.html" class="cta-counseling" aria-label="カウンセリング予約">
+                <img src="assets/images/reserve-badge.png" alt="Counseling Reservation" class="cta-counseling__icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <p class="section-text">
-          完全予約制、マンツーマン。<br />
-          施術の前に、コンシェルジュが<br />
-          丁寧にカウンセリングを行います。
-        </p>
-
-        <p class="section-text">
-          流れ作業ではない、<br />
-          あなただけのための時間を。
-        </p>
-
-        <a href="reserve.html" class="cta-counseling" aria-label="カウンセリング予約">
-          <img
-            src="assets/images/reserve-badge.png"
-            alt="Counseling Reservation"
-            class="cta-counseling__icon"
-          />
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-   <!-- ================= 第4幕：余韻（着地） ================= -->
-<section class="section section--detail" aria-label="Detail">
-  <div class="container">
-    <div class="media-16x9 detail-media">
-      <img src="assets/images/detail-01.png" alt="静かな余韻" />
-
-      <!-- 画像の上に載せる文章＆予約アイコン（第3幕と同じ発想で1ブロック化） -->
-      <div class="detail-overlay">
-        <h2 class="section-title">細部にまで、品を。</h2>
-
-        <p class="section-text">
-          手に触れるもの、<br />
-          視界に入るものすべてに、<br />
-          理由のある上質を。
-        </p>
-
-        <a href="reserve.html" class="cta-counseling" aria-label="カウンセリング予約">
-          <img
-            src="assets/images/reserve-badge.png"
-            alt="Counseling Reservation"
-            class="cta-counseling__icon"
-          />
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
     </main>
 
-    <!-- ================= フッター（共通） ================= -->
+    <!-- ================= フッター ================= -->
     <footer class="site-footer">
       <div class="container footer-inner">
         <small class="footer-copy">Sample site / Designed by Lakushite</small>
       </div>
     </footer>
+
   </body>
 </html>
