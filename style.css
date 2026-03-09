@@ -48,15 +48,12 @@ body.is-luxury {
 }
 
 .hero {
-  min-height: 560px; /* 画像の高さに合わせて後で調整してOK */
-}
-
-.hero {
   position: relative;
   padding: 96px 0;
   overflow: hidden;
   color: var(--lux-text-main);
   isolation: isolate; /* ← これで重なりの事故を防ぐ */
+  min-height: 560px; /* 画像の高さに合わせて後で調整してOK */ 
 }
 
 /* 背景画像（最背面） */
