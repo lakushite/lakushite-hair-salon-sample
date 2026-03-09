@@ -37,6 +37,16 @@ body.is-luxury {
    HERO（luxury-template）
    ========================= */
 /* HERO：文字/アイコンが背景に隠れた時の前面固定 */
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  right: clamp(24px, 6vw, 90px);
+  transform: translateY(-50%);
+  z-index: 2;
+  width: min(520px, calc(100% - 48px));
+}
+
 .hero {
   position: relative;
   padding: 96px 0;
