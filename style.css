@@ -48,6 +48,10 @@ body.is-luxury {
 }
 
 .hero {
+  min-height: 560px; /* 画像の高さに合わせて後で調整してOK */
+}
+
+.hero {
   position: relative;
   padding: 96px 0;
   overflow: hidden;
