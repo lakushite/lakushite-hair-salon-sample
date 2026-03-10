@@ -5,8 +5,44 @@
 
 /* ----- ① ページヘッダー ----- */
 .about-hero {
-  padding: 96px 0 80px;
+  position: relative;
+  padding: 120px 0 100px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* 背景画像 */
+.about-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  background-image: url("assets/images/space-01.png");
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  transform: scale(1.03); /* 端の白い線対策 */
+}
+
+/* オーバーレイ：暗め＋ゴールドをほんのり */
+.about-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.72) 0%,
+    rgba(10, 6, 2, 0.65) 60%,
+    rgba(30, 18, 4, 0.55) 100%
+  );
+}
+
+/* テキストを前面に */
+.about-hero .container {
+  position: relative;
+  z-index: 1;
 }
 
 .about-eyebrow {
